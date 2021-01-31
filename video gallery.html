@@ -1,0 +1,72 @@
+<html>
+<head>
+      <title>Video Gallery</title>
+<style>
+div.gallery {
+  margin: 5px;
+  border: 2px solid #ccc;
+  float: left;
+  width: 480px; 
+  height:300px;
+}
+div.gallery video {
+  width: 100%;
+  height: 260px;
+}
+div.photo {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="gallery">
+  <video controls onended="myfunction()" onvolumechange="myvolume()">
+  <source src="video1.mp4" type="video/mp4">
+  </video>
+  <div class="photo">Annual Sports Competitions and Cultural Events</div>
+</div>
+
+<div class="gallery">
+  <video controls onended="myfunction()" onvolumechange="myvolume()">
+  <source src="video2.mp4" type="video/mp4">
+  </video>
+  <div class="photo">Annual Sports Competitions and Cultural Events</div>
+</div>
+<div class="gallery">
+  <video controls onended="myfunction()" onvolumechange="myvolume()">
+  <source src="video3.mp4" type="video/mp4">
+  </video>
+  <div class="photo">Annual Sports Competitions and Cultural Events</div>
+</div>
+
+<div class="gallery">
+  <video controls onended="myfunction()" onvolumechange="myvolume()">
+  <source src="video4.mp4" type="video/mp4">
+  </video>
+  <div class="photo">Annual Sports Competitions and Cultural Events</div>
+</div>
+<div class="gallery">
+  <video controls onended="myfunction()" onvolumechange="myvolume()">
+  <source src="" type="video/mp4">
+  </video>
+  <div class="photo">Annual Sports Competitions and Cultural Events</div>
+</div>
+<div class="gallery">
+  <video controls onended="myfunction()" onvolumechange="myvolume()">
+  <source src="" type="video/mp4">
+  </video>
+  <div class="photo">Annual Sports Competitions and Cultural Events</div>
+</div>
+
+<script>
+function myfunction(){
+alert("video has ended");
+}
+function myvolume(){
+alert("volume has been changed")
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,159 @@
+#header{
+   background-color:#95A5A6;
+   text-align:center;
+    width:auto;
+    height:105;
+    border-style: solid;
+    border-width: 2px;
+    padding:1px;
+}
+#header #im1{
+ max-width:200;
+ max-height:105;
+}
+#header #im2{
+ max-width:200;
+ max-height:105;
+}
+
+#div1{
+float:left;
+background-color:Black;
+color:white;
+width:10%;
+height:20;
+}
+#div2{
+float:right;
+max-width:100%;
+background-color:black;
+color:white;
+width:90%;
+height:20;
+}
+.menu-bar{
+background-color:#ddd;
+text-align:center;
+}
+.menu-bar ul{
+display:inline-flex;
+list-style:none;
+color:white;
+}
+.menu-bar ul li{
+width:150px;
+margin:5px;
+padding:5px;
+}
+.menu-bar ul li a{
+text-decoration: none;
+color:black;
+}
+
+.active, .menu-bar ul li:hover{
+background:#95A5A6;
+border-radius:100px;
+}
+
+.menu-bar .fa{
+margin-right:5px;
+}
+
+
+.sub-menu-1{
+display:none;
+}
+.menu-bar ul li:hover .sub-menu-1{
+
+display:block;
+position:absolute;
+background-color:#ddd;
+margin-top:5px;
+margin-left:-15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul{
+display:block;
+margin-right:30px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li{
+width:100px;
+margin:10px;
+padding:5px;
+margin-right:-5px
+text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover{
+background-color:#95A5A6;
+}
+
+
+
+.menu-bar2{
+float:left;
+background-color:#eff5f5;
+width:20%;
+height:71%;
+text-align:center;
+}
+
+.menu-bar2 ul{
+list-style:none;
+color:black;
+}
+.menu-bar2 ul li{
+width:100px;
+margin:10px;
+padding:10px;
+}
+.menu-bar2 ul li a{
+background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 3px 2px;
+  cursor: pointer;
+}
+
+.main{
+float:left;
+background-color:white;
+width:79.2%;
+height:auto;
+margin:1px;
+}
+.main-image{
+border:5px solid black;
+
+}
+
+
+.lower{
+clear:both;
+background-color:#ddd;
+}
+
+.menu-bar-bottom{
+background-color:#ddd;
+text-align:center;
+}
+.menu-bar-bottom ul{
+display:inline-flex;
+list-style:none;
+}
+.menu-bar-bottom ul li{
+width:210px;
+margin:10px;
+padding:10px;
+}
+.menu-bar-bottom ul li a{
+text-decoration: none;
+color:black;
+}
+.menu-bar-bottom .fa{
+margin-right:5px;
+}

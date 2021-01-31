@@ -1,0 +1,142 @@
+<html>
+<head> 
+	<title>Admission Form</title>
+<style>
+.background {
+  background-image: url('form.jpg');
+  background-size:cover;
+  height:100%;
+}
+
+.form-body{
+margin-left:600px;
+ 
+}
+.submit{
+background-color:#229954;
+color:white;
+margin-left:110px;
+font-size:20px;
+}
+</style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="school.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<div id="header">
+        <img id="im1" src="png.jpg" align="left">
+	<img id="im2"src="milon.jpg"align="right">
+	<h2>Bajnia High School, Bochagonj, Dinajpur</br>বাজনিয়া উচ্চ বিদ্যালয়, বোচাগঞ্জ, দিনাজপুর</br> EIIN : 120233</h2>
+</div>
+
+       <div class="menu-bar">
+         <ul>
+	     <li class="active"><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+              <li><a href="#"><i class="fa fa-info-circle"></i>About</a>
+                <div class="sub-menu-1">
+		 <ul>
+			<li><a href="about.html">History</a></li>
+			<li><a href="mission.html">Mission</a></li>
+			<li><a href="vision.html">Vission</a></li>
+		        
+		 <ul>
+		</div>
+	      </li>
+             <li><a href="#"><i class="fa fa-graduation-cap"></i>Administration</a>
+                <div class="sub-menu-1">
+		 <ul>
+			<li><a href="governing body.html">Governing Body</a></li>
+			<li><a href="Teacher inform.html">Teacher Information</a></li>
+			<li><a href="staff.html">Staff Information</a></li>
+		
+		 <ul>
+		</div>
+	      </li>
+	     </li>
+            
+	     <li><a href="#">Gallery</a>
+		<div class="sub-menu-1">
+		 <ul>
+			<li><a href="photo gallery.html"><i class="fa fa-camera"></i>Photo Gallery</a></li>
+			<li><a href="video gallery.html"><i class="fa fa-file-video-o"></i>Video Gallery</a></li>
+		
+		 <ul>
+		</div>
+               </li>
+             <li><a href="facilities.html"><i class="fa fa-server"></i>Facilities</a></li>
+	     <li><a href="contract.html"><i class="fa fa-phone"></i>Contract</a></li>
+
+              <li><a href="login.html"><i class="fa fa-sign-in"></i>LogIn</a></li>		
+	 </ul>
+       </div>
+
+
+<div class="background">
+<div class="form-body">
+<form  name="reg" action="" method="POST">
+
+<table border="1">
+<tr> 
+<th colspan=2><font size=5>Admission Form</font></th>
+</tr>
+<tr>
+<td>Birth Reg-No</td>
+<td><input type="number" name="birth_reg_no" required></td>
+</tr>
+<tr> 
+<td>Student Name</td>
+<td><input type="text" name="name" required></td>
+</tr>
+</br>
+<tr>
+<td>Father Name:</td>
+<td><input type="text" name="fname" required></td>
+</tr>
+<tr>
+<td>Phone Number</td>
+<td><input type="number" name="number" placeholder="enter correct number" required></td>
+</tr>
+<tr>
+<td>Email</td>
+<td><input type="email" name="email"></td>
+</tr>
+<tr>
+<td>Address</td>
+<td><input type="text" name="address"></td>
+</tr>
+<tr>
+<td>Class</td>
+<td><input type="text" name="class" required></td>
+</tr>
+<tr>
+<td>Gender</td>
+<td>
+<input type="radio" name="gender" value="male">Male
+</br>
+<input type="radio" name="gender" value="female">Female
+</br>
+<input type="radio" name="gender" value="other">Other
+</td>
+</tr>
+<tr>
+<td>Blood Group</td>
+<td><input type="text" name="blood" ></td>
+</tr>
+<tr>
+<td>Group</td>
+<td>
+<input type="radio" name="group" value="science">Science
+</br>
+<input type="radio" name="group" value="art's">Arts
+</br>
+<input type="radio" name="group" value="general">General
+</td>
+</table>
+<input class="submit" type="submit" name="submit" value="submit" >
+</form>
+</div></div>
+</body>
+</html>
